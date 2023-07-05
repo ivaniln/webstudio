@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(190, 251, 251);
+}
+.link1 {
+    width: fit-content;
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: black;
+}
+.link2 {
+    width: fit-content;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    color: black;
+}
+nav {
+    width: fit-content;
+}
+header > nav > a:hover {
+    color: rgb(223, 3, 3);
+}
+header > nav > a:focus {
+    color: rgb(255, 146, 146);
+}
+header > address > a:hover {
+    color: rgb(223, 3, 3);
+}
+header > address > a:focus {
+    color: brown;
+}
+.opener {
+    background-color: rgb(68, 68, 111);
+    height: 200px;
+    align-content: center;
+}
+.opener > h1 {
+    position: relative;
+    padding-top: 50px;
+    color: azure;
+    font-size: large;
+    text-align: center;
+}
+.opener > button {
+    margin-left: 46%;
+}
+.features {
+    background-color: rgb(148, 243, 243);
+    width: 100%;
+    height: 200px;
+}
+.features > h2 {
+    margin: auto;
+    display: none;
+}
+.features > ul {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+}
+.features > ul > li {
+    width: max-content;
+    list-style-type: none;
+    padding: 40px;
+}
+.activities {
+    background-color: rgb(255, 231, 230);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+.activities > h2 {
+    width: 100%;
+    text-align: center;
+}
+.activities >  ul {
+    list-style-type: none;
+    width: fit-content;
+    display: flex;
+}
+.activities > ul > li > img {
+    margin-left: 100px;
+    width: 270px;
+}
+.team {
+    padding: 10px;
+    background-color: rgb(212, 212, 212);
+}
+.team > h2 {
+    width: 100%;
+    text-align: center;
+}
+.team > ul {
+    list-style-type: none;
+    width: fit-content;
+    background-color: inherit;
+    margin: auto;
+    display: flex;
+}
+.team > ul > li {
+    margin: 20px;
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(157, 157, 157);
+}
+.team > ul > li > img {
+    width: 200px;
+}
+footer {
+    height: 70px;
+    background-color: rgb(194, 136, 249);
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+.logo {
+    position: relative;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+header > .logo {
+    float: left;
+}
+.logo >  span {
+    color: rgb(0, 75, 249);
+}
