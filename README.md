@@ -40,9 +40,8 @@ This repository contains the main pages and static assets:
    cd webstudio
 2. Open index.html (or portfolio.html) in your browser:
    double-click file, or run a simple static server if you prefer:
-   # Python 3
-  python -m http.server 8000
-  # then open http://localhost:8000
+   python -m http.server 8000
+   then open http://localhost:8000
 
 ---
 
